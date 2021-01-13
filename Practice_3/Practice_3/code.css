@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+.body {
+  background-color: #e5e5e5;
+}
+.container {
+  width: 350px;
+  height: 400px;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+  margin: 120px auto;
+}
+.name {
+  width: 133px;
+  height: 32px;
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 0px;
+  margin-left: 108px;
+}
+.name:hover {
+  color: #535353;
+}
+.image {
+  size: 154px;
+}
+.info {
+  display: inline-block;
+  margin-top: 10px;
+}
+.column {
+  display: inline-block;
+  margin-left: 5px;
+}
+.column:hover {
+  color: #022ea0;
+  cursor: pointer;
+}
+.number {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #535353;
+  margin-top: 32px;
+  margin-left: 25px;
+}
+.number:hover {
+  color: #022ea0;
+  cursor: pointer;
+}
+.text {
+  width: 64px;
+  height: 15px;
+  font-size: 14px;
+  color: #535353;
+  text-align: center;
+  margin-left: 30px;
+}
+.text:hover {
+  color: #022ea0;
+  cursor: pointer;
+}
+.button {
+  margin-top: 33px;
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-around;
+  display: block;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.follow {
+  background-color: #2add32;
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  padding: 8.5px 28px;
+  margin-right: 11.5px;
+}
+.follow:hover {
+  background-color: #03831f;
+}
+.message {
+  color: #fff;
+  background-color: #2a67dd;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 3px;
+  border-radius: 3px;
+  padding: 8.5px 28px;
+  margin-left: 20px;
+}
+.message:hover {
+  background-color: #0039a8;
+}

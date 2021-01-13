@@ -1,0 +1,86 @@
+.global-content__content {
+  display: flex;
+  padding-top: 86px;
+}
+
+.avatar {
+  margin-left: 108px;
+}
+
+.avatar__pic {
+  width: 429px;
+  height: 423px;
+  background-image: url(./images/Лого.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile {
+  padding-left: 126px;
+}
+
+.profile__title {
+  font-size: 80px;
+}
+
+.profile__subtitle {
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.profile__links {
+  display: flex;
+  padding-top: 25px;
+  padding-bottom: 42px;
+}
+
+.profile__link {
+  margin-right: 20px;
+  padding-top: 19px;
+  width: 130px;
+  height: 64px;
+  line-height: 23px;
+  text-align: center;
+  display: block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 19px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.6);
+}
+.profile__link::after {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.profile__link:hover::after {
+  opacity: 0.2;
+}
+
+.profile__link_resume {
+  background-color: #e83556;
+}
+
+.profile__link_work {
+  background-color: #61d0d4;
+}
+
+.profile__link_skills {
+  background-color: #d1c926;
+}
+.profile__text {
+  margin-right: 108px;
+  width: 417px;
+  font-size: 13px;
+  line-height: 18px;
+}

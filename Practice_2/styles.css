@@ -1,0 +1,30 @@
+html {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 8px;
+  margin: 0;
+  background: #efefef;
+}
+
+.page-header {
+  text-align: right;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.heading {
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 300px;
+  margin-bottom: 0;
+}
+
+.section-down {
+  margin-top: 420px;
+  text-align: center;
+}

@@ -1,0 +1,98 @@
+.content-header {
+  position: relative;
+  background-image: url(../aseets/images/Rectangle@2x.png);
+  height: 1168px;
+  margin: auto;
+  padding: auto;
+  width: 100%;
+  background-size: cover;
+  background-size: no-repeat;
+  overflow: hidden;
+}
+.content-header__search {
+  position: absolute;
+  margin-top: 347px;
+  width: 441px;
+  height: 475px;
+  margin-left: 414px;
+  background-color: #ffffff;
+  box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.content-header__title {
+  font-size: 30px;
+  line-height: 36px;
+  color: #222222;
+  margin-left: 32px;
+  margin-top: 15px;
+  margin-bottom: 24px;
+}
+.content-header__text {
+  font-size: 12px;
+  line-height: 16px;
+  margin-left: 39px;
+}
+.content-header__arrival {
+  width: 74px;
+  height: 16px;
+  display: inline-block;
+  margin-left: 31px;
+  margin-top: 15px;
+}
+.content-header__departure {
+  margin-left: 117px;
+  margin-right: 100px;
+  width: 45px;
+  height: 16px;
+  display: inline-block;
+}
+.content-header__place {
+  width: 377px;
+  height: 48px;
+  margin: 15px 32px;
+}
+.content-header__date {
+  height: 48px;
+  margin-top: 12px;
+  margin-bottom: 23px;
+  margin-left: 33px;
+  margin-right: 1px;
+  display: inline-block;
+  justify-content: space-between;
+}
+.content-header__adults {
+  display: inline-block;
+  margin-left: 33px;
+  margin-right: 102px;
+  width: 74px;
+  height: 16px;
+}
+.content-header__child {
+  margin-left: 0;
+  margin-right: 100px;
+  display: inline-block;
+  width: 37px;
+  height: 16px;
+}
+.content-header__btn {
+  width: 153px;
+  height: 48px;
+  padding: 12px 24px;
+  margin-left: 256px;
+  margin-bottom: 24px;
+  background: #ff5a5f;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+.content-header__number {
+  margin-left: 32px;
+  margin-right: 0;
+  height: 48px;
+  margin-top: 9px;
+  margin-bottom: 24px;
+}
+
+/*# sourceMappingURL=main-header.css.map */

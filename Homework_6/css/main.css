@@ -1,0 +1,54 @@
+.content-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 8px;
+}
+.content-wrapper__image {
+  width: 100%;
+  height: 300px;
+}
+.content-wrapper__bnb {
+  width: 229px;
+  height: 26px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #222222;
+  margin-bottom: 5px;
+  margin-top: 65px;
+}
+.content-wrapper__house {
+  width: 489px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  color: #222222;
+}
+.content-wrapper__title {
+  width: 388px;
+  height: 26px;
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 48px;
+  margin-bottom: 6px;
+  color: #222222;
+}
+.content-wrapper__descriprion {
+  width: 485px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 61px;
+  color: #222222;
+}
+.content-wrapper__choose {
+  width: 275px;
+  height: 33px;
+  font-size: 22px;
+  line-height: 26px;
+  margin-top: 58px;
+  margin-bottom: 23px;
+  color: #222222;
+}
+
+/*# sourceMappingURL=main.css.map */

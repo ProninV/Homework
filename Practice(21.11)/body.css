@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: Open Arial, Helvetica, sans-serif;
+}
+body,
+form,
+a,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #464748;
+  background-size: cover;
+  min-width: 1600px;
+}
+.page_title__sub {
+  text-align: center;
+  padding-top: 247px;
+  margin-bottom: 40px;
+  width: 251px;
+  height: 49px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main_blocks {
+  justify-content: space-between;
+  padding-top: 130px;
+  display: flex;
+  margin-left: 210px;
+  margin-right: 210px;
+  text-align: center;
+}

@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+      . body {
+        background-color: #e5e5e5;
+        font-family: "Courier New", Courie r, monospace;
+      }
+      .container {
+        width: 350px;
+        margin: auto;
+        margin-top: 15%;
+        padding: 11px 98px;
+        background-color: #fefefe;
+        box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+      }
+      .close-icon {
+        position: absolute;
+        border: none;
+        background-color: transparent;
+        margin-left: 140px;
+        display: none;
+        cursor: pointer;
+        font-size: 22px;
+      }
+      .container:hover .close-icon {
+        display: inline-block;
+      }
+      .name {
+        font-size: 18px;
+        font-weight: 400;
+      }
+      .name:hover {
+        color: #535353;
+      }
+      .image {
+        size: 154px;
+      }
+      .info {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 31px;
+      }
+      .data {
+        margin-left: 12px;
+        border-left: 1px solid black;
+        padding-left: 12px;
+        color: #535353;
+      }
+      .data:hover {
+        color: #0039a8;
+        cursor: grab;
+      }
+      .column {
+        margin-left: 0;
+        border-left: none;
+        padding-left: 0;
+      }
+      .number {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 49px;
+      }
+      .text {
+        font-size: 14px;
+        line-height: 16.41px;
+      }
+      .button{
+        margin-top: 33px;
+        margin-bottom: 48px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .button {
+        display: block;
+        min-width: 115px;
+        height: 33px;
+        text-transform: uppercase;
+        border-radius: 3px;
+        border: none;
+        color: white;
+        cursor: pointer;
+      }
+      .follow {
+        background-color: #2add32;
+      }
+      .follow:hover {
+        background-color: #03831f;
+      }
+      .message {
+        margin-left: 23px;
+        background-color: #2a67dd;
+      }
+      .message:hover {
+        background-color: #0039a8;}

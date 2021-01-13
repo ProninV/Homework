@@ -1,0 +1,47 @@
+.main_block__pro {
+  padding-top: 37px;
+  width: 375px;
+  height: 608px;
+  background: #22262c;
+  border-radius: 10px;
+}
+.main_block__pro__type {
+  height: 34px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34px;
+  color: #ffffff;
+}
+.main_block__pro__choose {
+  margin-top: 130px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 211px;
+  height: 54px;
+  padding: 15px;
+  padding-right: 48px;
+  padding-left: 54px;
+  background: #bc1e4a;
+  border: none;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #ffffff;
+}
+.main_block__pro__price {
+  padding-top: 18px;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 76px;
+  height: 76px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.main_block__pro__includes {
+  margin-right: 29px;
+  text-align: left;
+  margin-left: 67px;
+  padding-top: 66px;
+  font-size: 15px;
+  line-height: 40px;
+  color: #ffffff;
+}

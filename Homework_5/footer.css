@@ -1,0 +1,28 @@
+.global-footer {
+  background: #e83556;
+  height: 137px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.global-footer__content {
+  display: flex;
+  text-align: left;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 155px;
+  margin-left: 145px;
+  margin: 50px;
+}
+.global-footer__text {
+  padding-left: 61px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.global-footer__img {
+  width: 45px;
+  height: 45px;
+  float: left;
+}

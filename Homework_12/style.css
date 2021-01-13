@@ -1,0 +1,58 @@
+.header {
+  position: relative;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 370px;
+  height: 250px;
+  text-align: center;
+  background-image: url(./photo/1.jpg);
+}
+.content {
+  width: 300px;
+  height: 300px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: plum;
+  border-radius: 25px;
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.content_active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0%);
+  transition: all 0.5ms;
+}
+.level {
+  padding-left: 20px;
+  padding-top: 35px;
+  font-size: 30px;
+  color: #ffffff;
+}
+.lesson {
+  padding-left: 20px;
+  padding-top: 5px;
+  font-size: 30px;
+  color: #ffffff;
+}
+.info {
+  margin: 10px 20px 5px 20px;
+  width: 250px;
+  height: 40px;
+  border-radius: 15px;
+  box-shadow: purple;
+  background-color: royalblue;
+  color: #ffffff;
+}
+.go {
+  margin: 10px 20px 5px 20px;
+  width: 250px;
+  height: 40px;
+  border-radius: 15px;
+  box-shadow: purple;
+  background-color: royalblue;
+  color: #ffffff;
+}
